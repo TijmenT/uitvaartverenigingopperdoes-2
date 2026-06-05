@@ -40,7 +40,7 @@ function injectNav() {
     <nav class="main-nav">
       <div class="nav-inner">
         <a href="${prefix}" class="nav-brand">
-          <img src="${prefix}public/logo_compact.png" alt="Uitvaartvereniging Opperdoes" class="nav-logo" />
+          <img src="${prefix}public/logo_compact_2.png" alt="Uitvaartvereniging Opperdoes" class="nav-logo" />
           <div class="nav-site-name">Uitvaartvereniging Opperdoes</div>
         </a>
         <ul class="nav-links">${desktopLinks}</ul>
@@ -92,14 +92,14 @@ function injectFooter() {
     <footer>
       <div class="footer-inner">
         <div class="footer-brand">
-          <img src="${prefix}public/logo_compact.png" alt="Uitvaartvereniging Opperdoes" class="footer-logo" />
+          <img src="${prefix}public/logo_compact_2.png" alt="Uitvaartvereniging Opperdoes" class="footer-logo" />
           <div>
             <div class="footer-name">Uitvaartvereniging Opperdoes</div>
             <div class="footer-tagline">Draagt Elkanders Lasten</div>
           </div>
         </div>
         <div class="footer-right">
-          <p>© 2024 Uitvaartvereniging Opperdoes</p>
+          <p>© ${new Date().getFullYear()} Uitvaartvereniging Opperdoes</p>
           <p>Sinds 1931 verbonden met de gemeenschap</p>
           <div class="footer-dev">Website ontwikkeld door Tijmen Terpstra</div>
         </div>
